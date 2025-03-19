@@ -26,7 +26,7 @@ a {
 .btn {
     padding: 1rem 1.5rem;
     background: rgb(41, 210, 204);
-    border: 1.5px solid rgb(44, 118, 135);
+    border: 1.5px solid rgb(51, 101, 112);
     cursor: pointer;
 }
 
@@ -34,7 +34,7 @@ a {
 .pre-title {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    color: rgb(70, 153, 170);
+    color: rgb(34, 95, 107);
     position: relative;
     padding-left: 40px;
     width: fit-content;
@@ -46,7 +46,7 @@ a {
     content: "";
     width: 20px;
     height: 1px;
-    background: rgb(74, 114, 148);
+    background: rgb(0, 0, 0);
     position: absolute;
     left: 0;
     top: 50%;
@@ -75,11 +75,11 @@ a {
 }
 
 .logo a {
-    color: rgb(12, 67, 78);
+    color: rgb(71, 110, 145);
 }
 
 nav ul li a {
-    color: rgb(62, 155, 155);
+    color: rgb(41, 116, 154);
 }
 
 /* home section */
@@ -91,11 +91,15 @@ nav ul li a {
     background-color: rgb(255, 255, 255);
 }
 
+body {
+    font-family: "bee-serif", sans-serif;
+    background: url(assets/laut.jpg)
+    
 .home-name {
     font-size: 3rem;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
-    color: rgb(10, 76, 100);
+    color: rgb(43, 110, 135);
 }
 
 .home-right img {
@@ -406,6 +410,9 @@ footer p {
     margin: 0;           
 }
 
+body {
+    font-family: "bee-serif", sans-serif;
+    background: url(assets/laut.jpg)
 
 html {
     scroll-behavior: smooth;
